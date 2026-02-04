@@ -378,6 +378,12 @@ Habilite IP restriction permitindo apenas 10.0.0.0/8 e 192.168.1.0/24
 
 ---
 
+## Disclaimer
+
+This project is provided "as is" without warranty of any kind, express or implied. The authors and contributors are not responsible for any damages or issues arising from the use of this software. Use at your own risk.
+
+This is an unofficial community project and is not affiliated with or endorsed by Kong Inc.
+
 ## License
 
 MIT
