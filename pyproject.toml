@@ -1,0 +1,16 @@
+[project]
+name = "kong-mcp-server"
+version = "0.1.0"
+description = "MCP server for Kong Gateway administration"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.27.0",
+]
+
+[project.scripts]
+kong-mcp = "kong_mcp_server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

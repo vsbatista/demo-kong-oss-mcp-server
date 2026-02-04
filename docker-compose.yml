@@ -1,0 +1,8 @@
+services:
+  kong-mcp:
+    build: .
+    container_name: kong-mcp-server
+    environment:
+      - KONG_ADMIN_URL=http://host.docker.internal:8001
+    stdin_open: true
+    network_mode: host
